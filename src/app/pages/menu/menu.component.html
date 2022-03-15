@@ -1,1 +1,13 @@
-<p>menu works!</p>
+<div class="container mt-4 mb-5">
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let fd of foodData; index as i">
+            <div class="foodBox">
+                <img src="{{fd.foodImg}}">
+                <h1>{{fd.foodName}}</h1>
+                <p>{{fd.foodDetails}}</p>
+                <p>{{fd.foodPrice | currency:'INR'}}</p>
+                <a  class="buy">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -6,8 +6,9 @@
 }
 .content{
     top: 90%;
-    left: 4%;
     position: relative;
+    margin: 0 0 0 50px;
+    
 }
 .content a{
     text-decoration: none;
