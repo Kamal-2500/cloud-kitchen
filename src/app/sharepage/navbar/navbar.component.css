@@ -6,7 +6,6 @@
     color: var(--primary-color);
     font-weight: bold;
 }
-
 .navbar-light .navbar-nav .nav-link
 {
     color: var(--secondary-color);
