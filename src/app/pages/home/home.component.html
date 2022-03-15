@@ -1,8 +1,11 @@
+<!-- banner -->
 <div class="banner">
     <div class="content">
         <a routerLink="menu">ORDER NOW <i class="bi bi-arrow-right"></i></a>
     </div>
 </div>
+
+<!-- how to get fresh food -->
 <div class="container mt-4 mb-5">
     <div class="row">
         <h1 class="text-center mb-4">How to get <span class="highlight">fresh food</span></h1>
@@ -25,4 +28,19 @@
             </div>
         </div>
     </div>
+</div>
+
+<!-- food box -->
+<div class="container mt-4 mb-5">
+    <div class="row">
+        <h1 class="text-center mb-4">Most <span class="highlight">trending food</span></h1>
+        <div class="col-lg-3 mt-3" *ngFor="let fd of foodData; index as i">
+            <div class="foodBox" *ngIf="i <= 3">
+                <img src="{{fd.foodImg}}">
+                <h1>{{fd.foodName}}</h1>
+                <p>{{fd.foodPrice | currency:'INR'}}</p>
+            </div>
+        </div>
+    </div>
+    <a routerLink="menu" class="view-more">view more <i class="bi bi-arrow-right"></i></a>
 </div>
