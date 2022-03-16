@@ -1,1 +1,7 @@
-<p>menupage works!</p>
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-6" *ngIf="menuData">
+            <img src="{{menuData[0].foodImg}}" width="100%">
+        </div>
+    </div>
+</div>
