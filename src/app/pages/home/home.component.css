@@ -68,6 +68,8 @@
 }
 
 .view-more{
+    margin-left: 0px;
+    width: 130px;
     text-decoration: none;
     background-color: black;
     color: #fff;

@@ -1,0 +1,40 @@
+form
+{
+    margin-top: 10%;
+    width: 50%;
+}
+img 
+{
+    border-radius: 6px;
+    padding: 10px 20px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.back{
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.back:hover{
+    background-color:var(--primary-color);
+    color: #fff;
+}
+
+.place-order{
+    text-decoration: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.place-order:hover{
+    color: #000;
+}
